@@ -37,9 +37,9 @@ export const links = [
 export const experiencesData = [
   {
     title: "Bachelor of Technology Graduation",
-    location: "Telanagana, India",
+    location: "Coimbatore, India",
     description:
-      "Graduated with a B.Tech degree in Electronics and Communication Engineering.",
+      "Graduated with a B.Tech degree in Computer science.",
     icon: React.createElement(LuGraduationCap),
     date: "2018 - 2022",
   },
