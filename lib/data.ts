@@ -47,7 +47,7 @@ export const experiencesData = [
     title: "Front-end Developer Intern",
     location: "Multiway, India",
     description:
-      "Completed a one-year Front-end Developer Internship at Multiway Technologies. Collaborated with experienced developers, contributing to real-world projects and refining my skills.",
+      "Completed a 6months Front-end Developer Internship at Multiway Technologies. Collaborated with experienced developers, contributing to real-world projects and refining my skills.",
     icon: React.createElement(CgWorkAlt),
     date: "sep 2023 - Feb 2024",
   },
@@ -57,7 +57,7 @@ export const experiencesData = [
     description:
       "Transitioned to  role as a  Intern at Ford motors private Limited India. Continuing to apply my expertise and passion for development to create innovative solutions and make a meaningful impact within the company.",
     icon: React.createElement(FaReact),
-    date: "2022 - present",
+    date: "jan 2022 - apr 2022 ",
   },
 ] as const;
 
