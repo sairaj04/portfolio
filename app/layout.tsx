@@ -10,9 +10,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Shanmukeshwar | Personal Portfolio",
-  description:
-    "Shanmukeshwar is a full-stack developer with 3 years of experience.",
+  title: "Hima Sri | Personal Portfolio",
+  description: "Hima Sri is a frontend developer with 2 years of experience.",
 };
 
 export const runtime = "edge";

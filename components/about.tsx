@@ -19,9 +19,7 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         After graduating with a degree in with a Bachelor's degree in{" "}
-        <span className="font-semibold">
-          Electronics and Communication Engineering.{" "}
-        </span>
+        <span className="font-semibold">Computer Science. </span>
         My journey in technology has been fueled by a relentless curiosity and a
         desire to create <span className="font-semibold">innovative</span>{" "}
         solutions. With over <span className="font-semibold">three years</span>{" "}

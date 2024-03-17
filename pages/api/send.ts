@@ -18,12 +18,7 @@ export default async (request: Request) => {
         "Content-Type": "application/json",
         Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
       },
-      body: JSON.stringify({
-        from: "Contact Form <hello@shanmukeshwar.dev>",
-        to: ["shanmukeshwar03@gmail.com"],
-        subject: "Message from contact form",
-        html: ContactFormEmail({ message, senderEmail }),
-      }),
+      body: JSON.stringify({}),
     });
 
     if (res.ok) {

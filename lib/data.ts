@@ -1,6 +1,7 @@
-import discordant from "@/public/discord.png";
-import multewayImage from "@/public/multeway.png";
-import redder from "@/public/redder.png";
+import netflixClone from "@/public/netflix-clone.png";
+import ecommerceApp from "@/public/ecommerce.png";
+import newsApp from "@/public/news-app.png";
+import passwordGenerator from "@/public/password-generator.png";
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
@@ -62,60 +63,38 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Discordant",
+    title: "Netflix Clone",
     description:
-      "A recreation of the popular chat and voice platform for seamless real-time communication.",
-    tags: [
-      "Next.js",
-      "Postrgesql",
-      "Tailwind",
-      "prisma",
-      "Typescript",
-      "socket.io",
-    ],
-    imageUrl: discordant,
+      "A Netflix clone built with React.js. It has a responsive design and a movie trailer feature.",
+    tags: ["React.js", "TMDB API"],
+    imageUrl: netflixClone,
   },
   {
-    title: "Redder",
-    description: "Where the best conversations on the internet happen",
-    tags: [
-      "Next.js",
-      "Postrgesql",
-      "Tailwind",
-      "Prisma",
-      "sst",
-      "shadcn",
-      "redis",
-    ],
-    imageUrl: redder,
+    title: "Daily news",
+    description: "A news app that fetches news from the News API.",
+    tags: ["Next.js", "Tailwind"],
+    imageUrl: newsApp,
   },
   {
-    title: "Multeway",
-    description:
-      "Connecting people with similar interests and hobbies to create a community.",
-    tags: [
-      "Next.js",
-      "Postrgesql",
-      "Tailwind",
-      "drizzle ORM",
-      "sst",
-      "firebase",
-      "socket.io",
-    ],
-    imageUrl: multewayImage,
+    title: "Ecommerce website",
+    description: "An E-commerce website built with React.js",
+    tags: ["React.js"],
+    imageUrl: ecommerceApp,
+  },
+  {
+    title: "Password Generator",
+    description: "A password generator built with React.js",
+    tags: ["React.js"],
+    imageUrl: passwordGenerator,
   },
 ] as const;
 
 export const skillsData = [
   "React",
+  "Next.js",
   "TypeScript",
   "Git",
   "Tailwind",
-  "DevOps",
   "Web development",
-  "Database Administration",
   "Data Structures",
-  "Microservices",
-  "Linux Administration",
-  "Cloud computing",
 ] as const;
