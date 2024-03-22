@@ -30,8 +30,8 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://avatars.githubusercontent.com/u/87477469"
-              alt="Hima Sri portrait"
+              src="https://avatars.githubusercontent.com/u/143157743?v=4"
+              alt="sairaj04"
               width="192"
               height="192"
               quality="95"
@@ -60,9 +60,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Hello, I'm <span className="font-bold">Hima Sri</span>, a dedicated{" "}
+        Hello, I'm <span className="font-bold">Sai Raj</span>, a dedicated{" "}
         <span className="font-bold">frontend developer</span>. With over{" "}
-        <span className="font-bold">two years</span> of practical experience,
+        <span className="font-bold">six months </span> of Internship experience,
         I'm eager to dive into fresh tech challenges and transform concepts into
         practical solutions.
       </motion.h1>
@@ -97,7 +97,7 @@ export default function Intro() {
 
         <a
           className="borderBlack flex cursor-pointer items-center gap-2 rounded-full bg-white p-4 text-gray-700 transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/himasri-kanumuri-949867264"
+          href="https://www.linkedin.com/in/sai-raj04/"
           target="_blank"
         >
           <BsLinkedin />
@@ -105,7 +105,7 @@ export default function Intro() {
 
         <a
           className="borderBlack flex cursor-pointer items-center gap-2 rounded-full bg-white p-4 text-[1.35rem] text-gray-700 transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/hima234"
+          href="https://github.com/sairaj04"
           target="_blank"
         >
           <FaGithubSquare />

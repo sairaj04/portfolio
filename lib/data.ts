@@ -37,27 +37,19 @@ export const links = [
 export const experiencesData = [
   {
     title: "Bachelor of Technology Graduation",
-    location: "Coimbatore, India",
+    location: "Thanjavur, Tamil Nadu",
     description:
-      "Graduated with a B.Tech degree in Computer science.",
+      "Graduated with a B.Tech degree in Electronics and Communication Engineering (ECE) ",
     icon: React.createElement(LuGraduationCap),
     date: "2018 - 2022",
   },
   {
     title: "Front-end Developer Intern",
-    location: "Multiway, India",
+    location: "Multeway, India",
     description:
-      "Completed a 6months Front-end Developer Internship at Multiway Technologies. Collaborated with experienced developers, contributing to real-world projects and refining my skills.",
-    icon: React.createElement(CgWorkAlt),
-    date: "sep 2023 - Feb 2024",
-  },
-  {
-    title: "Software engineer Intern",
-    location: "Ford, India",
-    description:
-      "Transitioned to  role as a  Intern at Ford motors private Limited India. Continuing to apply my expertise and passion for development to create innovative solutions and make a meaningful impact within the company.",
+      "Completed a 6months Front-end Developer Internship at Multeway Technologies. Collaborated with experienced developers, contributing to real-world projects and refining my skills.",
     icon: React.createElement(FaReact),
-    date: "jan 2022 - apr 2022 ",
+    date: "Sep 2023 - Feb 2024",
   },
 ] as const;
 
@@ -90,11 +82,15 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  "Html",
+  "CSS",
+  "Javascript",
   "React",
   "Next.js",
   "TypeScript",
-  "Git",
   "Tailwind",
-  "Web development",
-  "Data Structures",
+  "Bootstrap",
+  "Sass",
+  "Git",
+  "Firebase",
 ] as const;
