@@ -1,9 +1,8 @@
-import netflixClone from "@/public/netflix-clone.png";
-import ecommerceApp from "@/public/ecommerce.png";
-import newsApp from "@/public/news-app.png";
-import passwordGenerator from "@/public/password-generator.png";
+import youtubeClone from "@/public/youtubeClone.jpeg";
+import ecommerceApp from "@/public/ecommerceApp.jpeg";
+import newsApp from "@/public/newsWebsite.jpeg";
+import passwordGenerator from "@/public/passwordGenerator.jpeg";
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 
@@ -36,7 +35,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Bachelor of Technology Graduation",
+    title: "PONNAIYAH RAMAJAYAM INSTITUTE OF SCIENCE & TECHNOLOGY",
     location: "Thanjavur, Tamil Nadu",
     description:
       "Graduated with a B.Tech degree in Electronics and Communication Engineering (ECE) ",
@@ -55,11 +54,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Netflix Clone",
+    title: "YouTube Clone",
     description:
-      "A Netflix clone built with React.js. It has a responsive design and a movie trailer feature.",
-    tags: ["React.js", "TMDB API"],
-    imageUrl: netflixClone,
+      "A YouTube clone built with React.js.Utilized Firebase for authentication, real-time database, and video hosting.",
+    tags: ["React.js", "Firebase"],
+    imageUrl: youtubeClone,
   },
   {
     title: "Daily news",
@@ -76,7 +75,7 @@ export const projectsData = [
   {
     title: "Password Generator",
     description: "A password generator built with React.js",
-    tags: ["React.js"],
+    tags: ["Next.js", "Tailwind"],
     imageUrl: passwordGenerator,
   },
 ] as const;
