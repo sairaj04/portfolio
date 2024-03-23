@@ -60,11 +60,11 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Hello, I'm <span className="font-bold">Sai Raj</span>, a dedicated{" "}
-        <span className="font-bold">frontend developer</span>. With over{" "}
-        <span className="font-bold">six months </span> of Internship experience,
-        I'm eager to dive into fresh tech challenges and transform concepts into
-        practical solutions.
+        Hello, I'm <span className="font-bold">Sai Raj</span>, A Dedicated{" "}
+        <span className="font-bold">Frontend developer</span>. With over{" "}
+        <span className="font-bold">Six months </span> of Internship experience,
+        I'm Eager to dive into Fresh Tech challenges and transform concepts into
+        Practical Solutions.
       </motion.h1>
       <motion.div
         className="flex flex-col items-center justify-center gap-2 px-4 text-lg font-medium sm:flex-row"

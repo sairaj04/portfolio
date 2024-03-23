@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Sai Raj | Personal Portfolio",
-  description: "Sai Raj is a frontend developer with 6 months Intership.",
+  description: "Sai Raj A Frontend developer.",
 };
 
 export const runtime = "edge";
